@@ -1,5 +1,19 @@
 
-
+''''
+def propina(monto, seleccion):
+    if seleccion == 1:
+        propina = monto * 0.10
+    elif seleccion == 2:
+        propina = monto * 0.15
+    elif seleccion == 3:
+        propina = monto * 0.20
+    elif seleccion == 4:
+        propina = int(input("Introduce el porcentaje de propina: ")) / 100 * monto
+    else:
+        print("Opción no válida")
+        propina = 0
+    return propina
+'''
 def propina(monto, seleccion):
     match seleccion:
         case 1:
