@@ -20,3 +20,7 @@ valor2 = int(input("ingrese segundo valor: "))
 
 total = operacion(simbolo, valor1, valor2)
 print("El total a pagar es: ", total)
+
+
+#probando git
+#probando git 2
